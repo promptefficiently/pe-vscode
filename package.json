@@ -45,7 +45,7 @@
     "core.js",
     "estimator-node.js",
     "readme.md",
-    "LICENSE.txt"
+    "LICENSE"
   ],
   "license": "MIT",
   "repository": {
