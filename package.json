@@ -1,0 +1,54 @@
+{
+  "name": "prompt-efficiently",
+  "displayName": "Prompt Efficiently",
+  "description": "Explicit rough input-token estimates and prompt tightening. PE sign-in required.",
+  "version": "0.2.0",
+  "publisher": "promptefficiently",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "main": "./extension.js",
+  "activationEvents": [],
+  "contributes": {
+    "commands": [
+      {
+        "command": "pe.signIn",
+        "title": "PE: Sign in"
+      },
+      {
+        "command": "pe.estimate",
+        "title": "PE: Estimate selected or pasted prompt"
+      },
+      {
+        "command": "pe.tighten",
+        "title": "PE: Tighten selected or pasted prompt"
+      },
+      {
+        "command": "pe.status",
+        "title": "PE: Check plan and free uses"
+      },
+      {
+        "command": "pe.upgrade",
+        "title": "PE: Open account and Pro upgrade"
+      },
+      {
+        "command": "pe.signOut",
+        "title": "PE: Sign out"
+      }
+    ]
+  },
+  "files": [
+    "extension.js",
+    "core.js",
+    "readme.md",
+    "LICENSE.txt"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/promptefficiently/pe-vscode.git"
+  }
+}
