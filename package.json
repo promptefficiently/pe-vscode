@@ -2,7 +2,7 @@
   "name": "prompt-efficiently",
   "displayName": "Prompt Efficiently",
   "description": "Explicit rough input-token estimates and prompt tightening. PE sign-in required.",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "publisher": "promptefficiently",
   "engines": {
     "vscode": "^1.95.0"
@@ -43,6 +43,7 @@
   "files": [
     "extension.js",
     "core.js",
+    "estimator-node.js",
     "readme.md",
     "LICENSE.txt"
   ],
