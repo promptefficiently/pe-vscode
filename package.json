@@ -2,7 +2,7 @@
   "name": "prompt-efficiently",
   "displayName": "Prompt Efficiently",
   "description": "Explicit rough input-token estimates and prompt tightening. PE sign-in required.",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "publisher": "promptefficiently",
   "engines": {
     "vscode": "^1.95.0"
